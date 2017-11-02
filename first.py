@@ -1,8 +1,10 @@
 import requests
 from botsrc import Bot
 
-id = 473559457
-key = ":AAH5NFuZppQP0PrypaussjDoo_d0FpJUDxg"
+
+id = # put your bot id here( only first numbers from token)
+key = # put here a key. Rest of token
+
 b = Bot(id, key)
 print(b.getMe())
 b.getUpdates()
